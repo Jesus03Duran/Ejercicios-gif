@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%
+}
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050505;
+    color: #1d1818;
+    text-align: center;
+    }
+header {
+    text-align: center;
+    background-color: #bba10b;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+.portafolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.arquitecto {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 850px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.arquitecto = hover {
+    transform: translateY(-10px);
+}
+.video-container {
+    background-color: rgb(0, 0, 0); 
+    box-shadow: 0 0 5px rgba(230, 224, 224, 0.1);
+    color: white;
+       margin: 10px;
+    text-align: center;
+}
+.imagen-container {
+    background-color: rgb(0, 0, 0); 
+    box-shadow: 0 0 5px rgba(230, 224, 224, 0.1);
+    color: white;
+       margin: 10px;
+    text-align: center;  
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
