@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+   body {
+    font-family: Arial, sans-serif; /* Usa la fuente san-serif para el texto*/
+    background-color: #474747; /* color de fondo*/
+    color: #ececec; /* color de texto */
+    text-align: center;
+    font-size: 4vw; /* tamaño del texto */
+        }
+        h1 {
+            font-size: 4vw; /* Tamaño dinámico según el viewport */
+            margin: 0;
+        }
+        .video-container {
+            position: relative;
+            width: 100%; /* el video ocupará el 100% del contenedor */
+            padding-bottom: 56.25%; /* proporción 16:9 ( altura/ancho = 9/16 = 0.5625) */
+           height: 0;
+           overflow: hidden;
+           }
+           .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+           }
+       .image-container{
+        max-width: 100%;
+        height: auto;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        display: block;
+            }
+    .container:hover {
+        background-color: #3a4349 
+    } 
+       footer {
+        background-color: #533e3e;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+            font-size: 1.5vw;
+            border-radius: 5px;
+        }

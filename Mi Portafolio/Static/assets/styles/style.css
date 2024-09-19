@@ -1,72 +1,79 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box; /*Establece cómo se calculan la altura y el ancho del elemento*/
+    margin: 0; /* elimina el borde interior */
+    padding: 0; /* espacio interior de 00px arriba y abajo, 00 px a los lados*/
 }
 html {
     font-size: 62.5%
 }
-* {
-    margin: 5px;
-    padding: 5px;
-    box-sizing: border-box;
+nav {
+    position: center;
+    top: 2px;
+    right: 2px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.container {
+    max-width: 100%;
+    height: auto;
+}
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue;
+        }
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #050505;
-    color: #1d1818;
+    font-family: Arial, sans-serif; /* Usa la fuente san-serif para el texto*/
+    background-color: #474747; /* color de fondo*/
+    color: #c4c4c4; /* color de texto */
     text-align: center;
+    font-size: 2.5vw; /* tamaño del texto */
+        }
+.image-container{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+        }
+ul {
+    list-style: none; /*estilo de lista*/
+    display: center; /* organiza enlace central */
+        text-align: center; /* texto alineado al centro*/
+}
+
+li {
+    display: inline; /* ordena en linea */
+}
+
+a {
+    text-decoration: none; /*elimina el subrayado de los enlaces*/
+    color: white; /*color del texto */
+    font-size: 1.0vw; /* tamaño del texto */
+    padding: 10px 10px; /* espacio interior de 10px arriba y abajo, 10 px a los lados*/
+    background-color: #32475f;
+    border-radius: 5px 5px; 
+    transition: background-color 0.5s ease;
+}
+.boton-btn:hover {
+    background-color: #0d2b14;
     }
 header {
     text-align: center;
-    background-color: #bba10b;
+    background-color: #2c2601;
     color: white;
-    padding: 5px 0;
+    padding: 10px 0;
     border-radius: 5px;
+    font-size: 2.5vw;
 }
-header h1 {
-    margin-bottom: 10px;
-}
-.portafolio {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-.arquitecto {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    padding: 5px;
-    width: 850px;
-    margin: 10px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-.arquitecto = hover {
-    transform: translateY(-10px);
-}
-.video-container {
-    background-color: rgb(0, 0, 0); 
-    box-shadow: 0 0 5px rgba(230, 224, 224, 0.1);
-    color: white;
-       margin: 10px;
-    text-align: center;
-}
-.imagen-container {
-    background-color: rgb(0, 0, 0); 
-    box-shadow: 0 0 5px rgba(230, 224, 224, 0.1);
-    color: white;
-       margin: 10px;
-    text-align: center;  
-}
-
 footer {
-    background-color: #333;
+    background-color: #533e3e;
     color: white;
     text-align: center;
     padding: 10px 0;
-    margin-top: 40px;
-}
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
